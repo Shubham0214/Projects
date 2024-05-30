@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+
+nav{
+    font-family: 'Merriweather', serif;
+
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: yellow;
+    align-items: center;
+    display: flex;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 65px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 75vh;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: yellow;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin: 24px;
+}
+.icons i{
+    cursor: 'pointer';
+}
+
+#myProgessbar{
+    width: 80vw;
+    text-align: center;
+
+}

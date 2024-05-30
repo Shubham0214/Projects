@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/23a55bc1df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="header_text">
+                <p>Frontend Developer</p>
+                <h1>Hi,I'm <span>Shubham Yadav</span></h1>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, exercitationem veritatis? Voluptatibus, dignissimos ea, qui aut in, eos minima facilis eligendi quaerat amet tempore. Libero aspernatur dolorem enim nesciunt sint!</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Designer Web/App interfaces</li>
+                            <li><span>UI/UX</span> <br> Designer Web/App interfaces</li>
+                            <li><span>UI/UX</span> <br> Designer Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Designer Web/App interfaces</li>
+                            <li><span>UI/UX</span> <br> Designer Web/App interfaces</li>
+                            <li><span>UI/UX</span> <br> Designer Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Designer Web/App interfaces</li>
+                            <li><span>UI/UX</span> <br> Designer Web/App interfaces</li>
+                            <li><span>UI/UX</span> <br> Designer Web/App interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services--------------  -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                   <i class="fa-solid fa-code"></i>
+                   <h2>Web Design</h2>
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, ex explicabo. Veritatis sed id ab mollitia itaque inventore quasi omnis. Beatae sequi dolorum minus sapiente?</p>
+                   <a href="#">learn more</a>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Frontend developer</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, ex explicabo. Veritatis sed id ab mollitia itaque inventore quasi omnis. Beatae sequi dolorum minus sapiente?</p>
+                    <a href="#">learn more</a>
+                  </div>
+                  <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>Web applications</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, ex explicabo. Veritatis sed id ab mollitia itaque inventore quasi omnis. Beatae sequi dolorum minus sapiente?</p>
+                    <a href="#">learn more</a>
+                  </div>
+            </div> 
+        </div>
+    </div>
+
+
+    <!---------------portfolio------------>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <d class="work">
+                    <img src="images/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                    </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------------contact------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>0123456789</p>
+
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkdin"></i></a>
+            </div>
+            <a href="" class="btn btn 2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" class="text" placeholder="Your Name" required>
+                        <input type="text" name="Email" class="email" placeholder="Your email" required>
+                        <textarea name="Message" id="msg" placeholder="Your message" rows="6"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="copyright">
+            <p>Shubham Yadav Portfolio</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzGPbP3EwtYQkJDQ05j0jz41fqxMlVDyl-WiSTXgiT5ENeke3TGy1Q4WckmUMOVEL1q/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
